@@ -1,0 +1,14 @@
+MIX0GRAU BETA 1 - TESTE EM REDE LOCAL
+
+1. Pare o servidor antigo com Ctrl+C.
+2. Copie o mix0grau.db da pasta antiga para esta pasta, com o servidor parado.
+3. No PowerShell nesta pasta:
+   $env:MIX0GRAU_ADMIN_PIN="escolha-um-pin-forte"
+   py server.py
+4. PC: http://localhost:3000
+5. Celular (mesmo Wi-Fi): http://192.168.3.39:3000
+6. Admin: http://localhost:3000/admin.html
+
+Fotos reais fornecidas pela loja para seis sabores. Os demais continuam com ilustrações temporárias.
+AVISO: login por WhatsApp ainda nao tem verificacao do numero. Uso somente em teste controlado.
+Não exponha a porta 3000 diretamente à internet. O banco e o PIN administrativo precisam de segurança de produção.

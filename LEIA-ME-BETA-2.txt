@@ -1,0 +1,11 @@
+MIX0GRAU BETA 2
+
+1. Pare o servidor antigo (Ctrl+C).
+2. Copie mix0grau.db da versao anterior para esta pasta, com o servidor desligado.
+3. Execute INICIAR_WINDOWS.bat.
+4. Cardapio: http://localhost:3000
+5. Painel: http://localhost:3000/admin.html (atalho ABRIR_GESTAO_WINDOWS.bat).
+6. Celular na mesma rede: http://192.168.3.39:3000 (se o IP nao mudou).
+
+Os selos so entram depois da aprovacao do pedido no painel.
+O painel continua protegido por PIN; nao publique na internet sem autenticacao reforcada e HTTPS.

@@ -1,0 +1,12 @@
+Mix0Grau ERP V5
+
+No PowerShell:
+$env:MIX0GRAU_ADMIN_PIN="SUA_SENHA_FORTE"
+py server.py
+
+Cardápio: http://localhost:3000
+Admin: http://localhost:3000/admin.html
+
+IMPORTANTE: faça backup do mix0grau.db da versão anterior e copie para esta pasta ANTES de iniciar o servidor para preservar os clientes e pedidos. Não copie o banco com o servidor em execução.
+
+O ERP é local e básico; não é sistema fiscal. Cadastro público ainda não tem verificação de WhatsApp. Os preços são administráveis, mas o cardápio legado pode precisar de atualização para mostrar novos sabores automaticamente. Estoque é ajustado manualmente.

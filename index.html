@@ -1,0 +1,149 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="theme-color" content="#580c72"><title>Mix0Grau | Seu açaí</title><style>
+:root{--p:#590d72;--bg:#f7f5f8;--muted:#766d7c}*{box-sizing:border-box}body{margin:0;background:var(--bg);font:15px system-ui,Arial;color:#281b30}button,input,textarea{font:inherit}button{cursor:pointer}header{position:sticky;top:0;z-index:3;background:#fff;box-shadow:0 2px 12px #0001}.head{max-width:1020px;margin:auto;display:flex;align-items:center;gap:10px;padding:9px 14px}.head img{width:50px;height:50px;border-radius:50%;object-fit:cover}.head strong{font-size:19px}.head small{display:block;color:var(--muted)}.head button{margin-left:auto;border:0;background:var(--p);color:#fff;border-radius:11px;padding:10px 12px}.hero{background:linear-gradient(115deg,#38044a,#8b24a5);color:#fff;padding:30px max(16px,calc((100vw - 1020px)/2))}.hero h1{margin:0;font-size:clamp(29px,6vw,48px)}.hero p{opacity:.9}.hero input{padding:14px;border:0;border-radius:12px;width:min(100%,630px)}main{max-width:1020px;margin:auto;padding:18px 14px 100px}.loyalty{background:#fff;border-radius:18px;padding:18px;box-shadow:0 3px 16px #0001;margin-bottom:20px}.loyalty h2{margin:0 0 6px;font-size:20px}.stamps{display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin:14px 0}.stamp{aspect-ratio:1;border:2px dashed #d7c9df;border-radius:13px;display:grid;place-items:center;color:#8a7892}.stamp.done{border:2px solid var(--p);background:#f1e4f6;color:var(--p)}.loyalty p{color:var(--muted);font-size:12px;margin:0}.tabs{display:flex;gap:8px;overflow:auto;padding:4px 0 15px}.tabs button{white-space:nowrap;background:#fff;border:1px solid #ddd;border-radius:24px;padding:9px 14px}.tabs .active{background:var(--p);color:#fff}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.product{background:#fff;border:1px solid #eee;border-radius:17px;overflow:hidden;box-shadow:0 3px 12px #00000009}.product img{width:100%;height:165px;object-fit:cover;background:#eee}.content{padding:13px}.content h3{margin:0 0 5px;font-size:16px}.content p{font-size:12px;color:var(--muted);margin:0}.foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:14px}.foot b{color:var(--p)}.primary,.foot button{border:0;background:var(--p);color:white;padding:11px 13px;border-radius:10px;font-weight:800}.primary{width:100%;padding:14px}.primary:disabled{background:#aaa}.shade{display:none;position:fixed;inset:0;background:#190020b9;z-index:5}.shade.show{display:block}.panel{position:fixed;z-index:6;bottom:0;left:50%;width:min(540px,100%);max-height:94dvh;overflow:auto;transform:translate(-50%,110%);transition:.2s;background:#fff;border-radius:22px 22px 0 0;padding:18px}.panel.show{transform:translate(-50%,0)}.panelhead{display:flex;align-items:center;justify-content:space-between}.panelhead h2{margin:0}.panelhead button{border:0;background:#eee;border-radius:9px;padding:9px}fieldset{border:0;margin:17px 0;padding:0}legend{font-weight:850;margin-bottom:10px}.choices{display:grid;grid-template-columns:1fr 1fr;gap:9px}.choice{border:1px solid #ddd;border-radius:11px;background:#fff;padding:12px;text-align:left}.selected{border:2px solid var(--p)!important;background:#f7eafa!important}.choice small{display:block;color:var(--muted);font-size:11px}.flavors{display:grid;gap:7px}.flavors button{background:#fff;border:1px solid #ddd;border-radius:9px;padding:11px;text-align:left}textarea,input{max-width:100%}textarea{width:100%;min-height:80px;border:1px solid #ddd;border-radius:10px;padding:12px}.quantity{display:flex;align-items:center;justify-content:center;gap:17px;margin:15px}.quantity button{padding:8px 15px;background:#fff;border:1px solid #ddd;border-radius:8px}.item{padding:12px 0;border-bottom:1px solid #eee}.item small{display:block;color:var(--muted)}.item button{background:none;border:0;color:#b42318;padding:7px 0}.total{display:flex;justify-content:space-between;font-weight:900;font-size:20px;margin:18px 0}.note{background:#fff6db;padding:10px;border-radius:9px;font-size:12px}.field{width:100%;padding:13px;margin:7px 0;border:1px solid #ddd;border-radius:10px}.empty{color:var(--muted);padding:20px}@media(max-width:650px){.grid{grid-template-columns:1fr}.product{display:flex}.product img{width:116px;height:auto;min-height:145px}.content{flex:1}.hero{padding:25px 14px}.head{padding:8px 11px}.stamps{gap:4px}.stamp{border-radius:9px}}
+
+/* V4: experiência responsiva desktop/mobile */
+:root{--p:#590d72;--bg:#f7f5f8;--muted:#766d7c}body{line-height:1.45}button{transition:transform .12s,filter .12s}button:hover{filter:brightness(.96)}button:active{transform:scale(.98)}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #c995df;outline-offset:2px}
+header{z-index:10}.head{max-width:1180px;min-height:76px}.hero{padding-top:48px;padding-bottom:48px}.hero h1{max-width:800px;line-height:1.1;letter-spacing:-1.3px}.hero p{max-width:660px}main{max-width:1180px}.loyalty{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,350px);column-gap:22px;align-items:center}.loyalty h2,.loyalty #clientText,.loyalty #rewardText,.loyalty #loginButton{grid-column:1}.loyalty .stamps{grid-column:2;grid-row:1/5}.stamp{font-weight:800}.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.product{transition:box-shadow .15s,transform .15s}.product:hover{box-shadow:0 9px 24px #32053c16;transform:translateY(-2px)}.product img{height:185px}.content{display:flex;flex-direction:column;min-height:154px}.content .foot{margin-top:auto;padding-top:16px}.panel{max-height:92dvh;overscroll-behavior:contain}.panelhead{position:sticky;top:-18px;background:white;z-index:2;padding:10px 0;border-bottom:1px solid #eee}.primary{min-height:46px}.tabs{position:sticky;top:76px;background:var(--bg);z-index:2;padding:12px 0}.note{line-height:1.5}
+@media(min-width:1050px){.panel{bottom:50%;transform:translate(-50%,160%);border-radius:22px;max-height:86vh}.panel.show{transform:translate(-50%,50%)}.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:700px) and (max-width:1049px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.loyalty{grid-template-columns:1fr 300px}}
+@media(max-width:699px){.hero{padding:30px 16px}.hero h1{font-size:clamp(27px,8vw,38px)}.head{min-height:66px}.head strong{font-size:17px}.head button{font-size:12px}.loyalty{display:block;padding:16px}.tabs{top:66px}.grid{grid-template-columns:1fr;gap:10px}.product{display:flex;flex-direction:row;min-height:142px}.product img{width:120px;height:auto;min-height:142px;object-fit:cover}.content{min-height:142px;padding:12px;flex:1}.content h3{font-size:15px}.content .foot{padding-top:8px}.foot button{padding:10px}.panel{padding:16px 15px calc(20px + env(safe-area-inset-bottom));max-height:94dvh}.stamp{font-size:13px}.loyalty h2{font-size:19px}}
+@media(max-width:370px){.product img{width:96px}.foot{flex-wrap:wrap}.foot button{width:100%}.head img{width:43px;height:43px}}
+
+/* Beta 1: melhor uso no celular, fotos reais sem textos */
+.product img{object-fit:contain;background:#f2edf4;padding:5px}
+@media(min-width:700px){.product img{height:220px}.grid{gap:18px}}
+@media(max-width:699px){.product img{width:132px;min-height:156px;height:156px;object-fit:contain}.product{align-items:stretch}.panel{max-height:90dvh}.flavors{grid-template-columns:repeat(2,minmax(0,1fr))}.flavors button{font-size:12px;padding:9px}.panelhead{position:sticky;top:-16px}.hero h1{font-size:29px}.loyalty{margin-bottom:12px}.loyalty .stamps{margin:8px 0}.content{min-width:0}}
+
+/* Beta 2: melhor adaptação para telas e toque */
+html{scroll-padding-top:75px}body{overflow-x:hidden}button{touch-action:manipulation;min-height:42px}.head{max-width:1200px}.hero{padding-left:max(18px,calc((100vw - 1200px)/2));padding-right:max(18px,calc((100vw - 1200px)/2))}main{max-width:1200px}.product img{display:block}.panel{overscroll-behavior:contain}.panelhead{background:#fff;position:sticky;top:-18px;z-index:2;padding:6px 0 12px;border-bottom:1px solid #eee}.note{line-height:1.65;border:1px solid #f4dfaa}.loyalty p{line-height:1.6}
+@media(min-width:700px) and (max-width:1050px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.product img{height:190px}}
+@media(max-width:699px){.head{gap:8px}.head small{font-size:10px}.hero{padding:23px 15px}.hero h1{line-height:1.12}.hero p{font-size:13px;line-height:1.5}.loyalty{border-radius:14px}.grid{grid-template-columns:1fr}.product{min-height:135px}.product img{width:38%;max-width:150px;height:auto;min-height:135px;object-fit:cover}.content{display:flex;flex-direction:column;min-height:135px}.foot{margin-top:auto}.foot button{white-space:nowrap}.panel{max-height:92dvh;padding-bottom:calc(22px + env(safe-area-inset-bottom))}.choices{gap:7px}.stamp{min-width:0}.note{font-size:12px}}
+@media(max-width:380px){.product img{width:34%}.content{padding:10px}.content h3{font-size:14px}.foot{flex-wrap:wrap}.foot button{width:100%}.head strong{font-size:16px}}
+
+/* Ajustes finais: painel responsivo e inputs sem zoom no celular */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+input,textarea,select,.field{font:16px/1.25 system-ui,Arial!important}
+.field,.hero input,textarea{line-height:1.25}
+.product-desc{line-height:1.45;min-height:52px}
+.profile{display:none;align-items:center;gap:12px;background:#f7eafa;border:1px solid #e3c3ef;border-radius:14px;padding:12px;margin:12px 0}
+.profile.show{display:flex}
+.profileAvatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--p);color:#fff;font-weight:900;flex:0 0 auto}
+.profileMeta{min-width:0}
+.profileMeta strong{display:block;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.profileMeta small{display:block;color:var(--muted);font-size:12px}
+.loyalty #profileCard{grid-column:1}
+.actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.head .actions button{margin-left:0}
+.profileBtn{border:1px solid #e4d6ea!important;background:#fff!important;color:#281b30!important;display:flex;align-items:center;gap:7px;padding:8px 10px!important;min-height:42px}
+.profileBtn.hasClient{background:#f7eafa!important;border-color:#d8b7e6!important;color:var(--p)!important}
+.profileMiniAvatar{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--p);color:#fff;font-size:11px;font-weight:900;flex:0 0 auto}
+.profileMiniText{max-width:110px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:800}
+@media(max-width:820px){
+ html,body{width:100%;max-width:100%;overflow-x:hidden}
+ .shade{min-height:100dvh}
+ .panel{left:10px;right:10px;bottom:0;width:auto;max-width:none;max-height:min(92dvh,calc(100dvh - 16px));padding:16px 16px calc(18px + env(safe-area-inset-bottom));border-radius:18px 18px 0 0;transform:translateY(110%)}
+ .panel.show{transform:translateY(0)}
+ .panelhead{top:-16px}
+ .panelhead h2{font-size:20px;line-height:1.15;padding-right:12px}
+ .panelhead button{flex:0 0 auto}
+ .total{font-size:19px}
+ .note{overflow-wrap:anywhere}
+ .product-desc{min-height:0}
+ .actions{gap:6px}
+ .profileBtn{padding:8px!important}
+ .profileMiniText{display:none}
+}
+@media(max-width:420px){
+ .panel{left:0;right:0;width:auto;max-width:none}
+ .panelhead h2{font-size:19px}
+ .choices,.flavors{grid-template-columns:1fr}
+}
+@media(min-width:821px){
+ .panel{width:min(560px,calc(100dvw - 40px))}
+}
+@media(min-width:1050px){
+ .panel{top:50%;bottom:auto;transform:translate(-50%,120%);max-height:min(86vh,760px);border-radius:22px}
+ .panel.show{transform:translate(-50%,-50%)}
+}
+
+/* Correção final do modal: desktop centralizado, celular como gaveta */
+.shade{z-index:1000!important}
+.shade.show{display:block!important}
+.panel{z-index:1001!important;box-shadow:0 18px 70px #0003;opacity:0;pointer-events:none}
+.panel.show{opacity:1;pointer-events:auto}
+@media(max-width:820px){
+ .panel{top:auto!important;left:0!important;right:0!important;bottom:0!important;width:auto!important;max-width:none!important;max-height:92dvh!important;border-radius:18px 18px 0 0!important;transform:translateY(105%)!important}
+ .panel.show{transform:translateY(0)!important}
+}
+@media(min-width:821px){
+ .panel{top:50%!important;left:50%!important;right:auto!important;bottom:auto!important;width:min(560px,calc(100vw - 40px))!important;max-width:560px!important;max-height:calc(100dvh - 48px)!important;border-radius:22px!important;transform:translate(-50%,120%) scale(.98)!important}
+ .panel.show{transform:translate(-50%,-50%) scale(1)!important}
+}
+
+/* Banner principal */
+.hero{background:#32004b;padding:0;color:#fff}
+.hero picture{display:block}
+.heroBanner{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;object-position:center}
+.heroSearch{background:var(--bg);padding:14px max(14px,calc((100vw - 1200px)/2));box-shadow:0 8px 24px #32053c12}
+.heroSearch input{width:min(100%,620px);padding:14px;border:1px solid #e8ddea;border-radius:12px;background:#fff;color:#281b30}
+@media(max-width:699px){
+ .heroBanner{max-height:none;aspect-ratio:1.2;object-fit:contain;object-position:center;background:#6f2b7c}
+ .heroSearch{padding:12px 14px}
+ .heroSearch input{width:100%}
+}
+</style></head><body>
+<header><div class="head"><img src="logo.png" alt="Logo Mix0Grau"><div><strong>Mix0Grau</strong><small>Cardápio digital • Fidelidade</small></div><div class="actions"><button id="profileButton" class="profileBtn" onclick="openProfile()"><span class="profileMiniAvatar">?</span><span class="profileMiniText">Perfil</span></button><button onclick="openCart()">Carrinho <span id="count">0</span></button></div></div></header>
+<section class="hero"><picture><source media="(max-width: 699px)" srcset="banner-mix0grau-mobile.png"><img class="heroBanner" src="banner-mix0grau.png" alt="Mix0Grau - Açaí na garrafa, diversos sabores, peça pelo delivery"></picture><div class="heroSearch"><input id="search" placeholder="Buscar sabores..." oninput="render()"></div></section>
+<main><section class="loyalty"><h2>Meu cartão fidelidade</h2><div id="clientText">Cadastre-se para acompanhar suas compras.</div><div id="stamps" class="stamps"></div><p id="rewardText"><b>6 açaís confirmados = 1 grátis!</b> Ao enviar o pedido, os selos ainda não aparecem. A loja precisa confirmar a compra para creditar os pontos.</p><button id="loginButton" class="primary" style="margin-top:13px" onclick="openProfile()">Cadastrar / Entrar</button></section><nav class="tabs" id="tabs"></nav><h2>Escolha seu açaí</h2><div class="grid" id="grid"></div></main>
+<div class="shade" id="shade" onclick="closePanels()"></div>
+<section class="panel" id="login"><div class="panelhead"><h2>Meu perfil</h2><button onclick="closePanels()">Fechar</button></div><p>Cadastre-se uma vez neste navegador para acompanhar seu cartão fidelidade.</p><input class="field" id="name" placeholder="Seu nome" maxlength="80" autocomplete="name"><input class="field" id="phone" placeholder="(98) 99999-9999" inputmode="tel" autocomplete="tel" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" oninput="formatPhoneInput(this)"><textarea class="field" id="address" placeholder="Endereço para entrega (opcional)" maxlength="180" autocomplete="street-address"></textarea><p class="note">Cadastro demonstrativo: sem confirmação por SMS. Para uso público, será necessário validar o número por código.</p><button class="primary" onclick="login()">Salvar perfil</button></section>
+<section class="panel" id="builder"><div class="panelhead"><h2>Personalizar pedido</h2><button onclick="closePanels()">Fechar</button></div><fieldset><legend>1. Recipiente</legend><div id="types" class="choices"></div></fieldset><fieldset><legend>2. Tamanho</legend><div id="sizes" class="choices"></div></fieldset><fieldset><legend>3. Sabor</legend><div id="flavors" class="flavors"></div></fieldset><fieldset><legend>4. Observações</legend><textarea id="obs" placeholder="Ex.: sem leite condensado..."></textarea></fieldset><div class="quantity"><button onclick="qty(-1)">−</button><b id="quantity">1</b><button onclick="qty(1)">+</button></div><p class="note" id="notice"></p><button class="primary" id="add" onclick="addItem()"></button></section>
+<section class="panel" id="cart"><div class="panelhead"><h2>Meu pedido</h2><button onclick="closePanels()">Fechar</button></div><div id="items"></div><div class="total"><span>Total</span><span id="total">R$ 0,00</span></div><p class="note"><b>Como funciona a fidelidade?</b><br>Seu pedido será registrado como <b>aguardando confirmação</b>. Depois que a loja confirmar a compra no sistema, seus açaís serão adicionados automaticamente ao cartão fidelidade. <b>A cada 6 açaís confirmados, você ganha 1 grátis.</b></p><button class="primary" onclick="checkout()">Finalizar no WhatsApp</button></section>
+<script>
+let products=[['Morango Trufado','Açaí cremoso com morango e uma camada trufada bem generosa.',17,24,'Trufados'],['Maracujá Trufado','A combinação azedinha do maracujá com trufa doce na medida.',17,24,'Trufados'],['Ninho Trufado','Creme de Ninho com toque trufado para um açaí mais encorpado.',16,23,'Trufados'],['Morango com Ninho','Morango e leite Ninho em uma mistura leve, doce e cremosa.',15,20,'Ninho'],['Maracujá com Ninho','Maracujá refrescante com Ninho para equilibrar doçura e acidez.',15,20,'Ninho'],['Paçoca com Ninho','Açaí com paçoca e Ninho, sabor de sobremesa brasileira.',12,18,'Ninho'],['Tradicional','O clássico com Ninho e leite condensado, simples e certeiro.',12,16,'Tradicional'],['Creme de Ninho','Açaí com creme de Ninho macio, doce e bem aconchegante.',12,18,'Ninho']].map((p,i)=>[...p,i+1]);
+let category='Todos',chosen=0,type='Garrafa',size=0,quantity=1,cart=[],client=null;let token=localStorage.getItem('mix0grau_token')||'';const ADDRESS_KEY='mix0grau_address',ADDRESS_PHONE_KEY='mix0grau_address_phone';
+const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const descriptions={'morango trufado':'Açaí cremoso com morango e uma camada trufada bem generosa.','maracujá trufado':'A combinação azedinha do maracujá com trufa doce na medida.','ninho trufado':'Creme de Ninho com toque trufado para um açaí mais encorpado.','morango com ninho':'Morango e leite Ninho em uma mistura leve, doce e cremosa.','maracujá com ninho':'Maracujá refrescante com Ninho para equilibrar doçura e acidez.','paçoca com ninho':'Açaí com paçoca e Ninho, sabor de sobremesa brasileira.','tradicional':'O clássico com Ninho e leite condensado, simples e certeiro.','creme de ninho':'Açaí com creme de Ninho macio, doce e bem aconchegante.'};
+function productDescription(p){const custom=String(p[1]||'').trim();if(custom)return custom;return descriptions[String(p[0]).toLowerCase()]||'Açaí gelado, cremoso e preparado para deixar seu pedido do seu jeito.'}
+function initials(name){return String(name||'M').trim().split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase()||'M'}
+function phoneDigits(phone){return String(phone||'').replace(/\D/g,'').slice(0,11)}
+function formatPhone(phone){const n=phoneDigits(phone);if(n.length<=2)return n?'('+n:'';if(n.length<=6)return '('+n.slice(0,2)+') '+n.slice(2);if(n.length<=10)return '('+n.slice(0,2)+') '+n.slice(2,6)+'-'+n.slice(6);return '('+n.slice(0,2)+') '+n.slice(2,7)+'-'+n.slice(7)}
+function formatPhoneInput(input){input.value=formatPhone(input.value)}
+function savedAddressFor(phone){return localStorage.getItem(ADDRESS_PHONE_KEY)===phoneDigits(phone)?localStorage.getItem(ADDRESS_KEY)||'':''}
+function rememberAddress(phone,address){const clean=String(address||'').trim();if(clean){localStorage.setItem(ADDRESS_PHONE_KEY,phoneDigits(phone));localStorage.setItem(ADDRESS_KEY,clean)}}
+function hydrateClientAddress(){if(client&&!client.address){const saved=savedAddressFor(client.phone);if(saved)client.address=saved}}
+function renderHeaderProfile(){const b=document.getElementById('profileButton');if(!b)return;b.classList.toggle('hasClient',!!client);b.innerHTML=client?`<span class="profileMiniAvatar">${esc(initials(client.name))}</span><span class="profileMiniText">${esc(client.name.split(' ')[0]||'Perfil')}</span>`:'<span class="profileMiniAvatar">?</span><span class="profileMiniText">Perfil</span>'}
+function openProfile(){hydrateClientAddress();document.getElementById('name').value=client?client.name:'';document.getElementById('phone').value=client?formatPhone(client.phone):'';document.getElementById('address').value=client?(client.address||savedAddressFor(client.phone)):'';show('login')}
+async function api(url,data){const r=await fetch(url,{method:data?'POST':'GET',headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},body:data?JSON.stringify(data):undefined});const raw=await r.text();let j;try{j=raw?JSON.parse(raw):null}catch(_){throw Error('Resposta inválida do servidor. Verifique se iniciou com py server.py (não use http.server).')}if(!j)throw Error('O servidor retornou uma resposta vazia. Reinicie py server.py.');if(!r.ok)throw Error(j.error||'Erro de comunicação ('+r.status+')');return j}
+async function refresh(){if(token){try{client=await api('/api/me');hydrateClientAddress()}catch(e){client=null;localStorage.removeItem('mix0grau_token');token=''}}renderLoyalty()}
+function renderLoyalty(){renderHeaderProfile();document.getElementById('clientText').textContent=client?'Olá, '+client.name+'! Você tem '+client.stamps+' de 6 selos.':'Cadastre-se para acompanhar suas compras.';document.getElementById('stamps').innerHTML=Array.from({length:6},(_,i)=>`<div class="stamp ${client&&i<client.stamps?'done':''}">${client&&i<client.stamps?'✓':i+1}</div>`).join('');document.getElementById('rewardText').textContent=client&&client.rewards?'Você tem '+client.rewards+' açaí(s) grátis disponível(is)! Peça o resgate à loja.':'A cada 6 açaís pagos e confirmados, você ganha 1 grátis.';const loginButton=document.getElementById('loginButton');loginButton.hidden=!!client;loginButton.textContent='Cadastrar / Entrar'}
+async function login(){try{const address=document.getElementById('address').value.trim();const phone=phoneDigits(document.getElementById('phone').value);const j=await api('/api/login',{name:document.getElementById('name').value,phone,address});token=j.token;localStorage.setItem('mix0grau_token',token);client=j.client;if(address&&!client.address)client.address=address;rememberAddress(client.phone,address||client.address);renderLoyalty();closePanels();if(sessionStorage.getItem('mix0grau_checkout_pending')==='1'){sessionStorage.removeItem('mix0grau_checkout_pending');setTimeout(checkout,80)}}catch(e){alert(e.message)}}
+function photoFor(p){const n=p[0].toLowerCase();if(n.includes('morango trufado'))return 'fotos/real-1.jpg';if(n.includes('maracujá trufado'))return 'fotos/real-2.jpg';if(n.includes('ninho trufado'))return 'fotos/real-3.jpg';if(n.includes('morango com ninho'))return 'fotos/real-4.jpg';if(n.includes('maracujá com ninho'))return 'fotos/real-5.jpg';if(n.includes('creme de ninho'))return 'fotos/real-6.jpg';return 'fotos/produto-'+Math.max(1,Math.min(8,products.indexOf(p)+1))+'.svg'}
+function render(){document.getElementById('tabs').innerHTML=['Todos','Trufados','Ninho','Tradicional'].map(c=>`<button class="${category===c?'active':''}" onclick="category='${c}';render()">${c}</button>`).join('');let q=document.getElementById('search').value.toLowerCase();document.getElementById('grid').innerHTML=products.map((p,i)=>({p,i})).filter(({p})=>(category==='Todos'||p[4]===category)&&p[0].toLowerCase().includes(q)).map(({p,i})=>`<article class="product"><img src="${photoFor(p)}" alt="Foto de ${esc(p[0])}" loading="lazy"><div class="content"><h3>${esc(p[0])}</h3><p class="product-desc">${esc(productDescription(p))}</p><div class="foot"><div><small>A partir de</small><br><b>${money(p[2])}</b></div><button onclick="openBuilder(${i})">Adicionar</button></div></div></article>`).join('')||'<p class="empty">Nenhum produto encontrado.</p>'}
+function openBuilder(i){chosen=i;type='Garrafa';size=0;quantity=1;document.getElementById('obs').value='';drawBuilder(true);show('builder')}
+function drawBuilder(resetScroll=false){const panel=document.getElementById('builder');const keepScroll=resetScroll?0:panel.scrollTop;document.getElementById('types').innerHTML=['Garrafa','Copo'].map(t=>`<button type="button" class="choice ${type===t?'selected':''}" onclick="type='${t}';drawBuilder()">${t}<small>${t==='Copo'?'Preços pendentes':'Preço cadastrado'}</small></button>`).join('');document.getElementById('sizes').innerHTML=['350 ml','500 ml'].map((s,i)=>`<button type="button" class="choice ${size===i?'selected':''}" onclick="size=${i};drawBuilder()">${s}</button>`).join('');document.getElementById('flavors').innerHTML=products.map((p,i)=>`<button type="button" class="${chosen===i?'selected':''}" onclick="chosen=${i};drawBuilder()">${p[0]}</button>`).join('');document.getElementById('quantity').textContent=quantity;const b=document.getElementById('add');b.disabled=type==='Copo';b.textContent=type==='Copo'?'Preços do copo pendentes':'Adicionar • '+money(products[chosen][size+2]*quantity);document.getElementById('notice').textContent=type==='Copo'?'Informe os preços dos copos para habilitar esta opção.':'Preço conforme o cardápio enviado.';panel.scrollTop=keepScroll}
+function qty(n){quantity=Math.max(1,quantity+n);drawBuilder()}
+function addItem(){if(type==='Copo')return;cart.push({product:chosen,type,size,qty:quantity,obs:document.getElementById('obs').value.trim()});closePanels();drawCart();openCart()}
+function drawCart(){document.getElementById('count').textContent=cart.reduce((s,x)=>s+x.qty,0);document.getElementById('items').innerHTML=cart.map((x,i)=>`<div class="item"><b>${x.qty}× ${products[x.product][0]}</b><small>${x.type} • ${sizeName(x.size)} • ${money(products[x.product][x.size+2]*x.qty)}</small>${x.obs?`<small>Obs.: ${esc(x.obs)}</small>`:''}<button onclick="cart.splice(${i},1);drawCart()">Remover</button></div>`).join('')||'<p class="empty">Seu carrinho está vazio.</p>';document.getElementById('total').textContent=money(cart.reduce((s,x)=>s+products[x.product][x.size+2]*x.qty,0))}
+function sizeName(i){return ['350 ml','500 ml'][i]}
+function show(id){closePanels();document.getElementById('shade').classList.add('show');document.getElementById(id).classList.add('show')}
+function closePanels(){document.getElementById('shade').classList.remove('show');document.querySelectorAll('.panel').forEach(p=>p.classList.remove('show'))}
+function openCart(){drawCart();show('cart')}
+async function checkout(){
+ if(!cart.length)return alert('Adicione pelo menos um produto ao pedido.');
+ if(!client){sessionStorage.setItem('mix0grau_checkout_pending','1');openProfile();return}
+ const saved=cart.map(x=>({...x}));
+ try{
+  const result=await api('/api/orders',{items:saved.map(x=>({...x,product:products[x.product][5]}))});
+  const lines=saved.map((x,i)=>`${i+1}. ${x.qty}x ${products[x.product][0]}\n   Recipiente: ${x.type} | Tamanho: ${sizeName(x.size)}\n   Valor: ${money(products[x.product][x.size+2]*x.qty)}${x.obs?'\n   Observações: '+x.obs:''}`).join('\n\n');
+  const addressLine=client.address?`\n*Endereço:* ${client.address}`:'';
+  const msg=`*NOVO PEDIDO • MIX0GRAU*\n\n*Número:* #${result.order_id}\n*Cliente:* ${client.name}\n*WhatsApp:* ${formatPhone(client.phone)}${addressLine}\n\n*ITENS DO PEDIDO*\n${lines}\n\n*TOTAL: ${money(result.total)}*\n\n*STATUS:* Aguardando confirmação da loja.\n\n*FIDELIDADE:* Os selos serão creditados somente depois que a loja confirmar a compra no sistema. A cada 6 açaís confirmados, 1 grátis.\n\nOlá! Gostaria de confirmar meu pedido, por favor.`;
+  const url='https://wa.me/5598999044137?text='+encodeURIComponent(msg);
+  cart=[];drawCart();closePanels();
+  window.location.href=url;
+ }catch(e){alert(e.message)}
+}
+async function loadProducts(){try{const rows=await api('/api/products');products=rows.map(p=>[p.name,p.description||'',Number(p.price350||0),Number(p.price500||0),p.category||'Açaí',p.id]);render();drawCart()}catch(e){console.error(e);render()}}
+render();drawCart();refresh();loadProducts();
+</script></body></html>
