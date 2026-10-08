@@ -1,0 +1,14 @@
+{
+  "name": "mix0grau",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check api/index.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,6 +1,6 @@
-mix0grau.db
-*.db
+node_modules/
 __pycache__/
 *.pyc
 .env
-.env.*
+mix0grau.db
+.vercel/
